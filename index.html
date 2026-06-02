@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="free.css" />
+  </head>
+  <body>
+    <h1>Tip Calculator</h1>
+
+    <div class="container">
+      <div class="card">
+        <div class="form-group">
+          <p>Bill</p>
+          <div class="input-box">
+            <span>₮</span>
+            <input id="bill" type="number" placeholder="0" />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <p>Select Tip %</p>
+          <div class="tip-grid">
+            <button onclick="huvisongoh(5)">5%</button>
+            <button onclick="huvisongoh(10)">10%</button>
+            <button onclick="huvisongoh(15)">15%</button>
+            <button onclick="huvisongoh(25)">25%</button>
+            <button onclick="huvisongoh(35)">35%</button>
+            <button onclick="huvisongoh(50)">50%</button>
+            <button onclick="huvisongoh(65)">65%</button>
+            <button onclick="huvisongoh(80)">80%</button>
+          </div>
+        </div>
+
+        <p id="total">Total 0.00</p>
+
+        <button class="reset-btn" onclick="tseverleh()">Reset</button>
+      </div>
+    </div>
+
+    <script src="free.js"></script>
+  </body>
+</html>
